@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Interactive card details form</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,56 +16,30 @@
 </head>
 <body>
   <div class="top-pic">
-    <img src="Assets/bg-main-mobile.png" alt="" class="top-img">
+    <!-- <img src="Assets/bg-main-mobile.png" alt="" class="top-img"> -->
+    <div class="card1" id="cards"><img src="Assets/bg-card-back.png"  alt=""></div>
+    <div class="card2" ><img src="Assets/bg-card-front.png"  alt=""></div>
   </div>
   <div class="container">
     
-    <!-- <img src="Assets/bg-card-back.png" alt="">
-    <img src="Assets/bg-card-front.png" alt=""> -->
     <form action="" class="Form">
       <h1>Cardholder Name</h1>
-      <input type="text" placeholder="e.g. Jane Appleseed" class="inpu-s"></form>
+      <input type="text" placeholder="   e.g. Jane Appleseed" class="inpu-s"></form>
       <h1>Card Number</h1>
-      <input type="text" placeholder="e.g. 1234 5678 9123 0000" class="inpu-s"></div>
-      <h1 class="date">Exp. Date (MM/YY) <span>cvc</span></h1>
+      <input type="text" placeholder="   e.g. 1234 5678 9123 0000" class="inpu-s"></div>
+      <h1 class="date">Exp. Date (MM/YY) <span style="margin-left: 8px;">cvc</span></h1>
       <div >
-        <input type="month" placeholder="MM"class="date-cube"><input type="text" placeholder="YY" class="date-cube"><input type="text" placeholder="e.g. 123" class="date-cube">
+        <input type="month" placeholder="    MM"class="date-cube"><input type="text" placeholder="     YY" class="date-cube"><input type="text" placeholder="    e.g. 123" class="cvc-n">
       </div>
       
       <button class="Confirm-btn">Confirm</button>
     </form>
   </div>
-<!-- 
-  0000 0000 0000 0000
-  Jane Appleseed
-  00/00
 
-  000
-
-  Cardholder Name
-  e.g. Jane Appleseed
-
-  Card Number
-  e.g. 1234 5678 9123 0000
-
-  Exp. Date (MM/YY)
-  MM
-  YY
-
-  CVC
-  e.g. 123
-
-  Confirm -->
-
-  <!-- Completed state start -->
-
-  <!-- Thank you!
-  We've added your card details
-  Continue -->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Syntaxfreddie</a>.
   </div>
 </body>
 </html>
