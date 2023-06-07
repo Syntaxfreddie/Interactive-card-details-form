@@ -31,12 +31,13 @@
       <input type="text" placeholder="   e.g. 1234 5678 9123 0000" class="inpu-s"></div>
       <h1 class="date">Exp. Date (MM/YY) <span style="margin-left: 8px;">cvc</span></h1>
       <div class="date-content">
-        <input type="number"  placeholder="    MM"class="date-cube"><input type="number" placeholder="     YY" class="date-cube"><input type="number" placeholder="    e.g. 123" class="cvc-n">
+        <input type="text" placeholder="    MM" class="date-cube" maxlength="2" onkeypress="return event.charCode >= 48 && event.charCode <= 57"> <input type="text" placeholder="     YY" class="date-cube" maxlength="2" onkeypress="return event.key >= 48 && event.key <= 57"><input type="text" placeholder="    e.g. 123" class="cvc-n" maxlength="3" onkeypress="return event.key >= 48 && event.key <= 57">
       </div>
       
       <button class="Confirm-btn">Confirm</button>
     </form>
   </div>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Syntaxfreddie</a>.
