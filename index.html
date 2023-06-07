@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
@@ -17,8 +17,10 @@
 <body>
   <div class="top-pic">
     <div class="card1" id="cards"><img src="Assets/bg-card-back.png"  alt=""></div>
+    <div class="back-num">000</div>
     <div class="card2" ><img src="Assets/bg-card-front.png"  alt=""></div>
-   
+    <div class="card-number">0000 0000 0000 0000</div>
+    <div class="card-name">Jane Appleseed<span class="frnt-side">00/00</span></span></div>
   </div>
   <div class="container">
     
@@ -28,17 +30,19 @@
       <h1>Card Number</h1>
       <input type="text" placeholder="   e.g. 1234 5678 9123 0000" class="inpu-s"></div>
       <h1 class="date">Exp. Date (MM/YY) <span style="margin-left: 8px;">cvc</span></h1>
-      <div >
+      <div class="date-content">
         <input type="number"  placeholder="    MM"class="date-cube"><input type="text" placeholder="     YY" class="date-cube"><input type="text" placeholder="    e.g. 123" class="cvc-n">
       </div>
       
       <button class="Confirm-btn">Confirm</button>
     </form>
   </div>
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Syntaxfreddie</a>.
   </div>
+  <script src="app.js">
+
+  </script>
 </body>
 </html>
